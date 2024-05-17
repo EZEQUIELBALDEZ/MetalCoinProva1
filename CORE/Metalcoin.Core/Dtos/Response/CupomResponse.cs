@@ -13,12 +13,23 @@ namespace Metalcoin.Core.Dtos.Response
 
         public Guid Id { get; set; }
         public string CodigoDoCupom { get; set; }
+
+
         public string DescricaoDoCupom { get; set; }
         public decimal ValorDoDesconto { get; set; }
+
+
         public TipoDescontoCupom TipoDescontoCupom { get; set; }
-        public DateTime DataDeValidade { get; set; }
+        public TipoStatusCupom TipoStatusCupom { get; set; }
+
+
         public int CuponsLiberados { get; set; }
         public int CuponsUsados { get; set; }
-        public TipoStatusCupom TipoStatusCupom { get; set; }
+
+        public DateTime DataDeValidade { get; set; }
+
+
+
+
     }
 }

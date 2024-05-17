@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Metalcoin.Core.Enums
 {
-    internal class TipoCupom
+    public enum TipoStatusCupom
     {
+
+        Ativo = 1,
+        Expirado = 2,
+
+        Desativado = 3,
+        TotalmenteUtilizado = 4
+
     }
 }

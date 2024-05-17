@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Metalcoin.Core.Enums
 {
-    internal class TipoDescontoCupom
+    public enum TipoDescontoCupom
     {
+
+        Porcentagem = 1,
+
+        ValorFixo = 2
+
     }
 }

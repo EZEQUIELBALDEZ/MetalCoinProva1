@@ -15,7 +15,7 @@ namespace Metalcoin.Core.Domain
     public class Cupom : Entidade
     {
 
-
+     
 
         public string CodigoDoCupom { get; set; }
 

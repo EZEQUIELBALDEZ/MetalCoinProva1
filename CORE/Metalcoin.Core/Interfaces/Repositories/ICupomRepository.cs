@@ -13,7 +13,16 @@ namespace Metalcoin.Core.Interfaces.Repositories
     public interface ICupomRepository : IRepository<Cupom>
     {
         Task<Cupom> BuscarPorAtivados(TipoStatusCupom tipoStatusCupom);
+
         Task<Cupom> BuscarPorDesativados(TipoStatusCupom tipoStatusCupom);
+
+
+
+
+        Task<Cupom> AtivarCupom(Guid id);
+        Task<Cupom> DesativarCupom(Guid id);
+
+
     }
 
 
