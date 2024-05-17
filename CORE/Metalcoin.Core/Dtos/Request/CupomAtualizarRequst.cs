@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Metalcoin.Core.Interfaces.Services
+namespace Metalcoin.Core.Dtos.Request
 {
-    internal class ICupomService
+    internal class CupomAtualizarRequst
     {
     }
 }
