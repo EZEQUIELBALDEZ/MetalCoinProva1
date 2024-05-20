@@ -25,7 +25,8 @@ namespace MetalCoin.Api.Controllers
         }
 
 
-
+        [HttpGet]
+        [Route("TodosCupons")]
         public async Task<ActionResult> ObterTodosCupons()
         {
             var listaCupons = await _cupomRepository.
@@ -128,6 +129,7 @@ namespace MetalCoin.Api.Controllers
             if (id == Guid.Empty) return BadRequest("O Id não foi informado");
             var resultado = await _cupomService.
                 DeletarCupom(id);
+
 
             if (!resultado) return BadRequest("O cupom selecionado não existe");
 

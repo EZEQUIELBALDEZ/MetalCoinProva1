@@ -8,7 +8,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Runtime.InteropServices;
 using System.Runtime.Intrinsics.X86;
-=======
+
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,9 +39,7 @@ namespace Metalcoin.Core.Domain
 
         public TipoStatusCupom TipoStatusCupom { get; set; }
 
-=======
-    internal class Cupons
-    {
+
 
     }
 }

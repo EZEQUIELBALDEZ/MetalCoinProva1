@@ -22,6 +22,7 @@ namespace Metalcoin.Core.Interfaces.Repositories
         Task AdicionarCupons(TEntity entidade);
         Task AtualizarCupons(TEntity entidade);
 
+
         Task RemoverCupom(Guid id);
     }
 }

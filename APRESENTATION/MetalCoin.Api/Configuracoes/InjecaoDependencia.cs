@@ -10,8 +10,8 @@ namespace MetalCoin.Api.Configuracoes
         public static IServiceCollection ResolveDependencias
             (this IServiceCollection services)
         {
-            services.AddScoped<ICategoriaRepository, CategoriaRepository>();
             services.AddScoped<ICategoriaService, CategoriaService>();
+            services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 
 
             services.AddScoped<ICupomRepository, CupomRepository>();
