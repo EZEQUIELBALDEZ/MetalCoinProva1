@@ -25,7 +25,8 @@ namespace MetalCoin.Api.Controllers
         }
 
 
-
+        [HttpGet]
+        [Route("TodosCupons")]
         public async Task<ActionResult> ObterTodosCupons()
         {
             var listaCupons = await _cupomRepository.
